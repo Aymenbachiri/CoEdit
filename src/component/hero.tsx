@@ -2,7 +2,7 @@
 
 import type { JSX } from "react";
 import { motion } from "motion/react";
-import { fadeIn, staggerContainer } from "@/app/page";
+import { fadeIn, staggerContainer } from "@/lib/animation/animation-values";
 
 export function Hero(): JSX.Element {
   return (
