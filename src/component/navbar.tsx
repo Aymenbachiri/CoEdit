@@ -8,7 +8,7 @@ export function Navbar(): JSX.Element {
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-gray-200 bg-white backdrop-blur-md transition-all duration-300 dark:border-gray-800 dark:bg-[#222327]">
+    <header className="sticky top-0 z-50 border-b border-gray-200 bg-white backdrop-blur-md transition-all duration-300 dark:border-gray-800 dark:bg-[#2a2b30]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">

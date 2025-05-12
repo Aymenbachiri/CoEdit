@@ -6,7 +6,7 @@ import { fadeIn, staggerContainer } from "@/app/page";
 
 export function Hero(): JSX.Element {
   return (
-    <section className="bg-white pt-16 pb-24 sm:pt-24 sm:pb-32 dark:bg-[#222327]">
+    <section className="bg-white pt-16 pb-24 sm:pt-24 sm:pb-32 dark:bg-[#2a2b30]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-12 lg:gap-8">
           <div className="lg:col-span-6">
