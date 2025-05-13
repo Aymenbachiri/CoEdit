@@ -49,7 +49,8 @@ export function Footer(): JSX.Element {
             </p>
             <div className="flex space-x-4">
               <a
-                href=""
+                target="_blank"
+                href="https://github.com/Aymenbachiri/CoEdit"
                 className="text-gray-400 hover:text-gray-500 dark:hover:text-gray-300"
               >
                 <span className="sr-only">GitHub</span>
