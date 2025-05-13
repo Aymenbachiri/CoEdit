@@ -1,7 +1,7 @@
 import { type NextRequest, NextResponse } from "next/server";
 import { updateSession } from "./lib/utils/supabase/middleware";
 
-const PUBLIC_PATHS = ["/", "/favicon.ico"];
+const PUBLIC_PATHS = ["/", "/signin", "/signup", "/favicon.ico"];
 
 export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
